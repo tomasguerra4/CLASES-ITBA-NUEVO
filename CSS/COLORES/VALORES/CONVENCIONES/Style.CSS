@@ -16,8 +16,14 @@ div p {color: chartreuse;
 div h2, div h3 {color:darkcyan;
 }
 
-* {font-size: 35px;} /*selector universal*/
+* {font-size: 24px;} /*selector universal*/
 
 /*COMENTARIOS: ESTE APARTADO SIRVE PARA QUE EL INTERPRETE DEL CODIGO
 CSS NO TENGA EN CUENTA NADA DE LO QUE ESCRIBIMOS EN ESTE APARTADO
 */
+
+.color{ color:#fff;} /*color hexagesimal 3 caracteres*/
+
+/* .color{ color:#000000;} color hexagesimal 6 caracteres*/
+
+.color{ color:rgb( 255, 0, 150)} /*color RGB/

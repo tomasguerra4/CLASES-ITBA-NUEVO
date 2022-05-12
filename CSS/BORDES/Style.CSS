@@ -16,8 +16,23 @@ div p {color: chartreuse;
 div h2, div h3 {color:darkcyan;
 }
 
-* {font-size: 35px;} /*selector universal*/
 
 /*COMENTARIOS: ESTE APARTADO SIRVE PARA QUE EL INTERPRETE DEL CODIGO
 CSS NO TENGA EN CUENTA NADA DE LO QUE ESCRIBIMOS EN ESTE APARTADO
+*/
+
+.color {
+    border: 5px black solid;
+    }
+/*
+dotted
+dashed
+solid
+double
+groove  (valor para elemento tridimensional)
+ridge   (valor para elemento tridimensional)
+inset   (valor para elemento tridimensional)
+outsed  (valor para elemento tridimensional)
+none
+hidden
 */

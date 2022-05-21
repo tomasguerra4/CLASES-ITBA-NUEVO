@@ -2,12 +2,18 @@
 <html lang="en">
 <head> <!--Asigna el titulo que aparece en la pestania en la pagina
     Se pone todo lo que no se ve en la pagina:LINKS, CONFIGURACIONES*-->
-    <meta charset="UTF-8">
 
+metadatos= 
+describe la informacion de un objeto, describe informacion sobre datos. Describe recursos, lo que hace es que por ejemplo describir un boton
+de un video, o si tiene texto en el titulo en el video o en la descripcion. SE PONE EN EL <b> HEAD </b>
+    <meta charset="UTF-8"> HACE QUE LA PAGINA ACEPTE ACENTOS, ES LA CODIFICACION UNIVERSAL.
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta  name="keywords" content="poner las palabras claves de la pagina"> name="author" name="copyright" name="robot"(indexable no indexable) name="description"
+
     <title>probando html</title>
 </head>
+
 <body> <!-- Se pone todo lo que se ve: secciones, cajas, botones,etc-->
     <h1> SOY TOMAS GUERRA
     </h1>
@@ -58,13 +64,74 @@ Listas:
     <li>hola 2</li>
 </ol>
 
-Otras:
+Multimedia(imagenes, videos, audios)
 
-<div>divisor</div>
-<section></section>
-<header></header>
-<footer></footer>
-    -->
+<img src="Ruta de archivo"> puedo agregarle atributo /width="small"/height="small"> OJO CON EL CSS, SI MODIFICO ACA NO PUEDO HACERLO EN CSS.
+<video src="Ruta del archivo .mp3 .mp4 .etc" controls=""></video> el controls tiene que ir vacio para que el navegador seleccione solo el atributo.
+<audio src="ruta del archivo" controls=""></audio> el controls tiene que estar
+
+DIVISIONES DE CONTENIDO:
+
+<div>
+    <h2>Subtitulo</h2>
+   <p> Divisor, <b> separa y agrupa</b> agrupa contenido.</p> 
+
+</div>
+
+Formularios:
+
+<form action="solo para backend">
+
+ Esto es algo que nos da el usuario como un Texto, lo rellena el usuario. <input type=" " name="">
+
+ <input type="text" required=""> el required hace el que campo sea obligatorio para enviarlo.
+ <input type="password" >
+ <input type="number" >
+ <input type="email" >
+ <input type="color">
+ <input type="range" min="100" max="1000" >
+ <input type="date" >
+ <input type="time" >
+ <input type="button" value="Boton"> el value es lo que se ve escrito en el boton/
+ <input type="Sumbit" > Este es el boton que nos envia los datos
+ <textarea name="Area" id="hola" cols="30" rows="10"> Hola </textarea>
+ 
+</form>
+
+
+HTML SEMANTICO= Es para escribir el html de forma mas ordenada.
+
+1. <header></header> este es el encabezado, puede ir con la <nav> barra de navegacion</nav> o no 
+2. <article> este se puede dividir en secciones, que dividen el mismo articulo
+     <section> de esta forma</section> 
+    </article>
+
+3.<aside> esta es la barra lateral de las paginas</aside>
+   
+4.<footer> es el pie de pagina</footer>
+   
+Como construir un NAV=
+
+<header>
+    <nav>
+<ul>
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="Micuenta.html"> Mi cuenta</a></li>
+    <li><a href="nosotros.html">Nosotros</a></li>
+</ul>
+</ul>
+</ul>
+    </nav>
+</header>
+
+<article>
+    <h1> Hola esta es mi pagina</h1>
+</article>
+
 
 </body>
+
+
+
+
 </html>

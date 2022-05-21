@@ -51,6 +51,7 @@ height: 100px;
 width: 600px;
 overflow: scroll;
 outline: 4px solid red;
+border-radius: 4px;
 }
 
 .text{
@@ -59,4 +60,3 @@ outline: 4px solid red;
   text-decoration: underline;
   text-shadow: 2px 5px 5px crimson;
 } /*el tercer PX es el blur.*/
-

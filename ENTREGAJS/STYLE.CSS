@@ -1,0 +1,71 @@
+.container {
+  height: 562px;
+  width: 287px;
+  background-color: white;
+  border: solid black 1px;
+  margin: 0 auto;
+}
+
+.caja-superior {
+  height: 140px;
+  width: 287px;
+  background-color: #0d3acfd6;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+
+.appgastos {
+  padding: 40px;
+  text-align: center;
+  height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ingresesusgastos {
+  margin-top: -70px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+
+.area-central {
+  background-color: rgba(192, 192, 192, 0.319);
+}
+
+.nombre {
+  margin-top: 5px;
+  width: 190px;
+  margin-top: 18px;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.dinero {
+  margin-top: 8px;
+  margin-top: 18px;
+  padding: 0;
+  border: none;
+  background: none;
+  width: 190px;
+}
+
+.numeropersonas {
+  margin-top: 18px;
+  padding: 0;
+  border: none;
+  background: none;
+  width: 190px;
+}
+
+.enviar {
+  transition: box-shadow 0.3s ease;
+  font-size: 15px;
+  color: white;
+  font-family: "Laila", sans-serif;
+  width: 94px;
+  height: 38px;
+  border: 2px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: ;
+}
